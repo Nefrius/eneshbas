@@ -5,12 +5,14 @@
   "scripts": {
     "dev": "tailwindcss -i ./src/input.css -o ./src/output.css --watch"
   },
-
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "devDependencies": {
     "tailwindcss": "^3.4.14"
+  },
+  "dependencies": {
+    "tailwindcss-motion": "^0.4.1-beta"
   }
 }
