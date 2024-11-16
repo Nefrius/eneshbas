@@ -10,9 +10,12 @@
   "license": "ISC",
   "description": "",
   "devDependencies": {
+    "concurrently": "^9.1.0",
+    "nodemon": "^3.1.7",
     "tailwindcss": "^3.4.14"
   },
   "dependencies": {
+    "express": "^4.21.1",
     "tailwindcss-motion": "^0.4.1-beta"
   }
 }
