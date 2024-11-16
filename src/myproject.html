@@ -12,47 +12,56 @@
         <div class="flex justify-between items-center p-4 bg-neutral-950 text-white">
             <div class="font-semibold text-lg ml-10">Nefrius</div>
             <div class="flex gap-8 font-semibold mr-4">
-                <a href="#">Home</a>
-                <a href="#">Contact</a>
+                <a href="../index.html">Home</a>
+                <a href="about.html">Contact</a>
             </div>
         </div>  
     </nav>
-    <div class="flex justify-center flex-col items-center">
+
+    <div class="flex flex-col items-center px-4 sm:px-6 pb-4">
         <!-- Başlık -->
-        <h1 class="mt-40 font-bold text-3xl motion-preset-fade motion-duration-400 motion-preset-expand motion-delay-500">
-          <span><a href="../index.html"><-</a></span> Projects -
+        <h1 class="mt-20 font-bold text-3xl motion-preset-fade motion-duration-400 motion-preset-expand motion-delay-500">
+            <span><a href="../index.html"><-</a></span> Projects -
         </h1>
-        <h1 class="mt-6 font-semibold text-base sm:text-lg md:text-xl text-center sm:text-left motion-preset-fade motion-duration-400 motion-preset-expand motion-delay-700 ml-5 mr-5">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto libero vitae impedit.
-        </h1>
-      
-        <!-- Kartlar Grid -->
-        <div>
-          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-8 sm:gap-16 lg:gap-32 mt-10 mb-10">
-            <!-- Card 1 -->
-            <div class="p-8 border-b-2 border-dotted shadow-2xl shadow-neutral-700 motion-preset-fade motion-duration-400 motion-preset-expand motion-delay-700  border-zinc-950 border rounded-md">
-              <img src="../nefrius.png" class="w-full h-40 object-cover rounded-md">
-              <h1 class="text-xl font-semibold mt-4 text-center sm:text-left">Nefrius.me</h1>
-              <div class="flex justify-center sm:justify-start mt-4">
-                <button class="transition duration-150 ease-in-out bg-transparent font-mono hover:motion-preset-shrink motion-duration-700 hover:motion-preset-flomoji-🚀 hover:bg-neutral-500 text-neutral-700 font-semibold hover:text-white py-2 px-4 border border-neutral-800 hover:border-transparent rounded-md">
-                  <a href="https://nefrius.me" class="button">Click</a>
-                </button>
-              </div>
+        <h2 class="mt-6 font-semibold sm:text-sm text-sm text-center sm:text-left motion-preset-fade motion-duration-400 motion-preset-expand motion-delay-700">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto libero vitae impedit.
+        </h2>
+
+        <!-- Kartlar -->
+        <div class="flex flex-col gap-8 mt-10 w-full max-w-5xl">
+            <!-- Kart 1 -->
+            <div class="flex flex-col motion-preset-fade motion-duration-400 motion-preset-expand motion-delay-1000 md:flex-row items-center p-6 border-b-2 border-dotted shadow-lg shadow-neutral-700 border-neutral-900 rounded-md bg-white">
+                <!-- Sol İçerik -->
+                <div class="w-full md:w-1/2 text-center md:text-left">
+                    <h1 class="text-2xl font-bold">Nefrius.me</h1>
+                    <p class="mt-4 text-gray-600">Discover projects, blogs, and tools to enhance your experience.</p>
+                    <button class="mt-6 transition duration-150 ease-in-out bg-neutral-800 text-white font-semibold py-2 px-4 rounded-md hover:bg-neutral-600">
+                        <a href="https://nefrius.me" target="_blank">Visit</a>
+                    </button>
+                </div>
+                <!-- Sağ İçerik -->
+                <div class="w-full md:w-1/2 mt-6 md:mt-0">
+                    <img src="../nefriusme.png" alt="Nefrius.me Screenshot" class="w-full h-40 object-cover rounded-md">
+                </div>
             </div>
-      
-            <!-- Card 2 -->
-            <div class="p-8 border-b-2 border-dotted shadow-2xl shadow-neutral-700 motion-preset-fade motion-duration-400 motion-preset-expand motion-delay-1000 border-zinc-950 border rounded-md">
-              <img src="../nefrius.png" class="w-full h-40 object-cover rounded-md">
-              <h1 class="text-xl font-semibold mt-4 text-center sm:text-left">Bashack.me</h1>
-              <div class="flex justify-center sm:justify-start mt-4">
-                <button class="transition duration-150 ease-in-out bg-transparent font-mono hover:motion-preset-shrink motion-duration-800 hover:motion-preset-flomoji-🚀 hover:bg-neutral-500 text-neutral-700 font-semibold hover:text-white py-2 px-4 border border-neutral-800 hover:border-transparent rounded-md">
-                  <a href="https://bashack.vercel.appz" class="button">Click</a>
-                </button>
-              </div>
+
+            <!-- Kart 2 -->
+            <div class="flex flex-col md:flex-row items-center p-6 border-b-2 border-dotted motion-preset-fade motion-duration-400 motion-preset-expand motion-delay-1500 shadow-lg shadow-neutral-700 border-neutral-900 rounded-md bg-white">
+                <!-- Sol İçerik -->
+                <div class="w-full md:w-1/2 text-center md:text-left">
+                    <h1 class="text-2xl font-bold">Bashack.vercel.app</h1>
+                    <p class="mt-4 text-gray-600">Explore our innovative tools and enhance your development journey.</p>
+                    <button class="mt-6 transition duration-150 ease-in-out bg-neutral-800 text-white font-semibold py-2 px-4 rounded-md hover:bg-neutral-600">
+                        <a href="https://bashack.vercel.app" target="_blank">Visit</a>
+                    </button>
+                </div>
+                <!-- Sağ İçerik -->
+                <div class="w-full md:w-1/2 mt-6 md:mt-0">
+                    <img src="../bashack.png" alt="Bashack.me Screenshot" class="w-full h-40 object-cover rounded-md">
+                </div>
             </div>
-          </div>
         </div>
-      </div>
-      
+    </div>
+
 </body>
 </html>
