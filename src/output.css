@@ -1023,6 +1023,11 @@ video {
   background-color: rgb(241 245 249 / var(--tw-bg-opacity));
 }
 
+.bg-slate-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(226 232 240 / var(--tw-bg-opacity));
+}
+
 .bg-transparent {
   background-color: transparent;
 }
@@ -1030,6 +1035,18 @@ video {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.bg-slate-200\/40 {
+  background-color: rgb(226 232 240 / 0.4);
+}
+
+.bg-slate-200\/10 {
+  background-color: rgb(226 232 240 / 0.1);
+}
+
+.bg-slate-200\/20 {
+  background-color: rgb(226 232 240 / 0.2);
 }
 
 .object-cover {
@@ -1463,46 +1480,6 @@ video {
   --motion-delay: 700ms;
 }
 
-.motion-delay-\[2000ms\] {
-  --motion-delay: 2000ms;
-}
-
-.motion-delay-\[2300ms\] {
-  --motion-delay: 2300ms;
-}
-
-.motion-delay-\[2500ms\] {
-  --motion-delay: 2500ms;
-}
-
-.motion-delay-\[3000ms\] {
-  --motion-delay: 3000ms;
-}
-
-.motion-delay-\[3300ms\] {
-  --motion-delay: 3300ms;
-}
-
-.motion-delay-\[3500ms\] {
-  --motion-delay: 3500ms;
-}
-
-.motion-delay-\[2400ms\] {
-  --motion-delay: 2400ms;
-}
-
-.motion-delay-\[100ms\] {
-  --motion-delay: 100ms;
-}
-
-.motion-delay-\[200ms\] {
-  --motion-delay: 200ms;
-}
-
-.motion-delay-\[1000ms\] {
-  --motion-delay: 1000ms;
-}
-
 .motion-delay-\[1300ms\] {
   --motion-delay: 1300ms;
 }
@@ -1533,6 +1510,30 @@ video {
 
 .motion-delay-\[1950ms\] {
   --motion-delay: 1950ms;
+}
+
+.motion-delay-\[2000ms\] {
+  --motion-delay: 2000ms;
+}
+
+.motion-delay-\[2300ms\] {
+  --motion-delay: 2300ms;
+}
+
+.motion-delay-\[2500ms\] {
+  --motion-delay: 2500ms;
+}
+
+.motion-delay-\[3000ms\] {
+  --motion-delay: 3000ms;
+}
+
+.motion-delay-\[3300ms\] {
+  --motion-delay: 3300ms;
+}
+
+.motion-delay-\[3500ms\] {
+  --motion-delay: 3500ms;
 }
 
 .hover\:motion-preset-shrink:hover {
